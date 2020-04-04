@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+    Anasayfa - {{ block.super }}ge
+{% endblock %}
+{% block body %}
+
+
+<h1>ANASAYFA</h1>
+
+    <h1>Hoşgeldiniz {{ request.user.get_full_name }}</h1>
+
+
+{% endblock %}
+
